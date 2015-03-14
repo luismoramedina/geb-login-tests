@@ -12,4 +12,4 @@ driver = { new FirefoxDriver() }
 //driver = { new ChromeDriver() }
 //driver = { new PhantomJSDriver() }
 
-baseUrl = "http://localhost:8000"
+baseUrl = "http://localhost:8000/"
