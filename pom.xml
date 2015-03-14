@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <version>1</version>
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.geb.login.tests</groupId>
   <artifactId>geb-login-tests</artifactId>
@@ -43,12 +44,30 @@
       <version>${gebVersion}</version>
       <scope>test</scope>
     </dependency>
+
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-firefox-driver</artifactId>
       <version>${seleniumVersion}</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-chrome-driver</artifactId>
+      <version>${seleniumVersion}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.github.detro.ghostdriver</groupId>
+      <artifactId>phantomjsdriver</artifactId>
+      <version>1.1.0</version>
+      <scope>test</scope>
+    </dependency>
+
+
+
   </dependencies>
   <build>
     <plugins>

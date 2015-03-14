@@ -16,6 +16,8 @@ class GebishOrgSpec extends GebReportingSpec {
 
         when:
         username = "admin"
+        
+        and:
         $("input[type=submit]").click()
 
         then:
